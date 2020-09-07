@@ -21,7 +21,31 @@
         width: 100vw;
         display: flex;
         justify-content: space-between;
+        &__test-user{
+          font-size: 16px;
+          color: white;
+        }
       }
+      .icon{
+        display: flex;
+        width: 60px;
+        color: white;
+        &__a{
+          a{
+            color: white;
+          }
+        }
+        &__b{
+          margin-left: 5px;
+          a{
+            color: white;
+          }
+        }
+      }
+
+
+
+
   }
   &__group-list{
     height: calc(100vh - 100px);
@@ -37,10 +61,15 @@
   &__group-info{
     height: 100px;
     background-color: #eee;
+    border-bottom: solid 1px #eee;
+    display: flex;
+    justify-content: space-between;
   }
   &__message-list{
     height: calc(100vh- 190px);
     background-color:#fafafa;
+    padding:35px 40px 0;
+    overflow: scroll;
   }
 
 
@@ -49,10 +78,14 @@
     width:calc(100vw - 300px);
     background-color: #dddddd;
     box-sizing: border-box;
+    padding: 20px 50px 20px 40px;
+    &__contes{
+      width: 100%;
+      background-color: #fff;
+      position: relative;
+    }
   }
 
 
 }
 
-
-  
