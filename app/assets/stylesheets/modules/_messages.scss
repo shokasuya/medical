@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+
 .wrapper{
   display: flex;
 }
@@ -66,26 +71,27 @@
     justify-content: space-between;
   }
   &__message-list{
-    height: calc(100vh- 190px);
+    height: calc(100%- 190px);
     background-color:#fafafa;
-    padding:35px 40px 0;
     overflow: scroll;
   }
 
-
-  &__form{
+  .form{
     height: 90px;
     width:calc(100vw - 300px);
     background-color: #dddddd;
     box-sizing: border-box;
     padding: 20px 50px 20px 40px;
-    &__contes{
-      width: 100%;
-      background-color: #fff;
-      position: relative;
+    .new_text{
+      
     }
-  }
+    .input-erea{
 
+    }
+  } 
+    .input__submit{
+
+  }
 
 }
 
