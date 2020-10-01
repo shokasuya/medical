@@ -69,3 +69,19 @@ has_many :messages
 ### Association
 belongs_to :group
 belongs_to :user
+
+
+
+
+# medical
+
+# Features
+## user-registration
+## group-registration
+## medicine-post
+## login
+## edit-medicamento-information
+## Search function
+
+# Production background
+## To find out which medicine works for your symptoms
