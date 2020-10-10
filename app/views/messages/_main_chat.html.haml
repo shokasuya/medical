@@ -10,6 +10,13 @@
     
   .chat-main__message-list
   .form
-  
+    = form_with model: [@group, @message], html: {class: "new_text"}, local: true do |f|
+        .input-erea
+          = f.text_field :content, class: 'input-erea__text', placeholder: 'type a message'
+          = f.label :image, class: 'input-erea__image' do
+            = icon('far', 'image', class: 'input-erea__icon')
+            = f.file_field :image, class: 'input-erea__image__file'
+        = f.submit 'Send', class: 'input__submit' 
+
     
     
