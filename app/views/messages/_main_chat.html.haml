@@ -9,6 +9,8 @@
     .chat-main__group-info__edit
     
   .chat-main__message-list
+    = render @messages
+
   .form
     = form_with model: [@group, @message], html: {class: "new_text"}, local: true do |f|
         .input-erea
